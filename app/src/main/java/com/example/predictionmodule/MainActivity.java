@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     EditText Metric, Inter, NTS;
     TextView Result;
     Button Predict;
+
     String url = "https://admissio-prediction.herokuapp.com/predict";
     Spinner spinnerInstitute, spinnerDepart;
 
